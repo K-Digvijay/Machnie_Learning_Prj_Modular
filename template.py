@@ -6,7 +6,10 @@ while True:
     Project_name = input("Enter Project Name: ")
     if Project_name!= '':
         break
-    
+while True:
+    jupyter = input('Enter the file name: ')
+    if jupyter != '':
+        break
 
 list_of_files = [
     f'{Project_name}/__init__.py',
@@ -18,7 +21,7 @@ list_of_files = [
     f'{Project_name}/logger/__init__.py',
     f'{Project_name}/pipeline/__init__.py',
     f'{Project_name}/utils/__init__.py',
-    f'{Project_name}/Jupyter_notebook/Delivery_model.ipynb',
+    f'{Project_name}/Jupyter_notebook/{jupyter}.ipynb',
     f'config/config.yaml',
     'schema.ymal',
     'app.py',
