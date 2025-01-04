@@ -18,6 +18,7 @@ list_of_files = [
     f'{Project_name}/logger/__init__.py',
     f'{Project_name}/pipeline/__init__.py',
     f'{Project_name}/utils/__init__.py',
+    f'{Project_name}/Jupyter_notebook/Delivery_model.ipynb',
     f'config/config.yaml',
     'schema.ymal',
     'app.py',
