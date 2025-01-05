@@ -7,7 +7,7 @@ while True:
     if Project_name!= '':
         break
 while True:
-    jupyter = input('Enter the file name: ')
+    jupyter = input('Enter the jupyter file name: ')
     if jupyter != '':
         break
 
